@@ -1,0 +1,36 @@
+{
+  "name": "patterns",
+  "version": "1.0.0",
+  "description": "the sample of patterns that we can use in front-end projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src",
+    "pre-commit": "npm run lint && npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abdilar/patterns.git"
+  },
+  "keywords": [
+    "patterns",
+    "front-end",
+    "patterns",
+    "singleton"
+  ],
+  "author": "Saeed Abdilar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abdilar/patterns/issues"
+  },
+  "homepage": "https://github.com/Abdilar/patterns#readme",
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "husky": "^8.0.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn pre-commit"
+    }
+  }
+}
