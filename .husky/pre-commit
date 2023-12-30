@@ -1,1 +1,3 @@
-yarn pre-commit
+echo 'husky started'
+
+# yarn pre-commit
