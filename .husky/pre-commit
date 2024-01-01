@@ -1,4 +1,10 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-echo 'husky tested....'
+echo '[husky] Preparing lint-staged...'
+echo '[husky] Running tasks for staged files...'
+
+# yarn lint-staged
+
+echo '[husky] Applying modifications from tasks...'
+echo '[husky] lint-staged finished...'
