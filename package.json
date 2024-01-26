@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint src",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "jsdoc": "node_modules/.bin/jsdoc --configure .jsdoc.json --verbose"
   },
   "repository": {
     "type": "git",
@@ -25,8 +26,10 @@
   },
   "homepage": "https://github.com/Abdilar/patterns#readme",
   "devDependencies": {
+    "docdash": "^2.0.2",
     "eslint": "^8.56.0",
     "husky": "^8.0.3",
+    "jsdoc": "^4.0.2",
     "lint-staged": "^15.2.0",
     "prettier": "^3.1.1"
   }

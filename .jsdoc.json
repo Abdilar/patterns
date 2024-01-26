@@ -1,0 +1,29 @@
+{
+  "recurseDepth": 10,
+  "source": {
+      "include": ["src"],
+      "includePattern": ".js(x)?$",
+      "excludePattern": "(node_modules|docs|.vscode|.husky)"
+  },
+  "sourceType": "module",
+  "tags": {
+      "allowUnknownTags": true,
+      "dictionaries": ["jsdoc"]
+  },
+  "plugins": [
+    "plugins/markdown"
+],
+"templates": {
+    "cleverLinks": false,
+    "monospaceLinks": true,
+    "useLongnameInNav": false,
+    "showInheritedInNav": true
+},
+  "opts": {
+    "private": true,
+    "recurse": true,
+    "template": "./node_modules/docdash",
+    "encoding": "utf8",
+    "destination": "./docs/jsdoc"
+  }
+}
